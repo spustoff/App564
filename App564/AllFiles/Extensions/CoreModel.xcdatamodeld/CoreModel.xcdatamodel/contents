@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="GamesModel" representedClassName="GamesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="gDescription" optional="YES" attributeType="String"/>
+        <attribute name="gName" optional="YES" attributeType="String"/>
+        <attribute name="gRules" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PrizeModel" representedClassName="PrizeModel" syncable="YES" codeGenerationType="class">
+        <attribute name="prCurGame" optional="YES" attributeType="String"/>
+        <attribute name="prDescription" optional="YES" attributeType="String"/>
+        <attribute name="prName" optional="YES" attributeType="String"/>
+        <attribute name="prPhoto" optional="YES" attributeType="String"/>
+    </entity>
+</model>
